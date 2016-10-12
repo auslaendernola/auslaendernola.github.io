@@ -64,7 +64,7 @@ animal.friends = friends;
 function search(name) {
   for ( var i = 0 ; i < animals.length ; i++ ) {
     if ( animal.name[i] === name) {
-      return animal;
+      return animal
     } else {
       return null;
     }
